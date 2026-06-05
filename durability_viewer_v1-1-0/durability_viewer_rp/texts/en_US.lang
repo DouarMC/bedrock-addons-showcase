@@ -1,0 +1,4 @@
+pack.name=Durability Viewer RP [v1.1.0] - by DouarMC
+pack.description=An addon to display the durability of Items. - Created by DouarMC
+
+douarmc.durability_viewer.scripts.lore.durability=§eDurability: %1 / %2
