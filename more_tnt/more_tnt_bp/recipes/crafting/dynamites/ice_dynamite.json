@@ -1,0 +1,28 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "douarmc_more_tnt:ice_dynamite"
+        },
+        "tags": ["crafting_table"],
+        "unlock": [
+            {
+                "item": "minecraft:stick"
+            }
+        ],
+        "ingredients": [
+            {
+                "item": "douarmc_more_tnt:ice_tnt",
+                "count": 1
+            },
+            {
+                "item": "minecraft:stick",
+                "count": 1
+            }
+        ],
+        "result": {
+            "item": "douarmc_more_tnt:ice_dynamite",
+            "count": 1
+        }
+    }
+}

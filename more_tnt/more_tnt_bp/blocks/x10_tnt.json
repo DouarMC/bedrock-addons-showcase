@@ -1,0 +1,61 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:block": {
+        "description": {
+            "identifier": "douarmc_more_tnt:x10_tnt",
+            "menu_category": {
+                "category": "items",
+                "group": "douarmc_more_tnt:more_tnt",
+                "is_hidden_in_commands": false
+            },
+            "states": {
+                "douarmc_more_tnt:explode_bit": [false, true],
+                "douarmc_more_tnt:triggered_by_explosion": [false, true]
+            }
+        },
+        "components": {
+            "tag:douarmc:stuff": {},
+            "tag:douarmc_more_tnt:more_tnt": {},
+
+            "minecraft:geometry": {
+                "identifier": "minecraft:geometry.full_block"
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "douarmc_more_tnt:x10_tnt_side"
+                },
+                "up": {
+                    "texture": "douarmc_more_tnt:x10_tnt_top"
+                },
+                "down": {
+                    "texture": "douarmc_more_tnt:x10_tnt_bottom"
+                }
+            },
+
+            "minecraft:tick": {
+                "looping": true,
+                "interval_range": [0, 0]
+            },
+            "minecraft:light_dampening": 15,
+            "minecraft:redstone_conductivity": {
+                "allows_wire_to_step_down": true,
+                "redstone_conductor": true
+            },
+
+            "douarmc_more_tnt:trigger_tnt_when_redstone_powered": {}
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('douarmc_more_tnt:explode_bit') == true",
+                "components": {
+                    "minecraft:tick": {
+                        "looping": false,
+                        "interval_range": [0, 0]
+                    },
+
+                    "douarmc_more_tnt:tnt_explode": {}
+                }
+            }
+        ]
+    }
+}

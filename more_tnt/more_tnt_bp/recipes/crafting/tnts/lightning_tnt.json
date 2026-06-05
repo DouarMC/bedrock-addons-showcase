@@ -1,0 +1,32 @@
+{
+    "format_version": "1.21.100",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "douarmc_more_tnt:lightning_tnt"
+        },
+        "tags": ["crafting_table"],
+        "unlock": [
+            {
+                "item": "minecraft:tnt"
+            }
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:tnt",
+                "count": 1
+            },
+            {
+                "item": "minecraft:glowstone_dust",
+                "count": 4
+            },
+            {
+                "item": "minecraft:iron_ingot",
+                "count": 4
+            }
+        ],
+        "result": {
+            "item": "douarmc_more_tnt:lightning_tnt",
+            "count": 3
+        }
+    }
+}

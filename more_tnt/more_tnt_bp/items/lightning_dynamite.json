@@ -1,0 +1,32 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:item": {
+        "description": {
+            "identifier": "douarmc_more_tnt:lightning_dynamite",
+            "menu_category": {
+                "category": "items",
+                "group": "douarmc_more_tnt:dynamite",
+                "is_hidden_in_commands": false
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "douarmc_more_tnt:lightning_dynamite"
+                }
+            },
+            "minecraft:cooldown": {
+                "category": "douarmc_more_tnt:dynamite",
+                "duration": 0.5
+            },
+            "minecraft:throwable": {
+                "do_swing_animation": true,
+                "launch_power_scale": 1.5,
+                "max_launch_power": 1.5
+            },
+            "minecraft:projectile": {
+                "projectile_entity": "douarmc_more_tnt:lightning_dynamite"
+            }
+        }
+    }
+}

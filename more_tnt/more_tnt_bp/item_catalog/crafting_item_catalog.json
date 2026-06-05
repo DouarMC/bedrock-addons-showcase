@@ -1,0 +1,39 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:crafting_items_catalog": {
+        "categories": [
+            {
+                "category_name": "items",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "name": "douarmc_more_tnt:more_tnt",
+                            "icon": "douarmc_more_tnt:x10_tnt"
+                        },
+                        "items": [
+                            "douarmc_more_tnt:x10_tnt",
+                            "douarmc_more_tnt:diamond_tnt",
+                            "douarmc_more_tnt:instant_tnt",
+                            "douarmc_more_tnt:ice_tnt",
+                            "douarmc_more_tnt:lightning_tnt"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "name": "douarmc_more_tnt:dynamite",
+                            "icon": "douarmc_more_tnt:dynamite"
+                        },
+                        "items": [
+                            "douarmc_more_tnt:dynamite",
+                            "douarmc_more_tnt:x10_dynamite",
+                            "douarmc_more_tnt:diamond_dynamite",
+                            "douarmc_more_tnt:instant_dynamite",
+                            "douarmc_more_tnt:ice_dynamite",
+                            "douarmc_more_tnt:lightning_dynamite"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

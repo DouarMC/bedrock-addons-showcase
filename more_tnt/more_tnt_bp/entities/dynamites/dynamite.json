@@ -1,0 +1,80 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "douarmc_more_tnt:dynamite",
+            "is_spawnable": false,
+            "is_summonable": true
+        },
+        "component_groups": {
+            "douarmc_more_tnt:start_explosion": {
+                "minecraft:explode": {
+                    "fuse_length": 4,
+                    "fuse_lit": true,
+                    "power": 4,
+                    "causes_fire": false
+                }
+            }
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": ["douarmc:stuff", "douarmc_more_tnt:dynamite"]
+            },
+            "minecraft:physics": {},
+            "minecraft:collision_box": {
+                "width": 0.70,
+                "height": 0.25
+            },
+            "minecraft:dimension_bound": {},
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": true
+            },
+            "minecraft:projectile": {
+                "knockback": false,
+                "multiple_targets": false,
+                "should_bounce": true,
+                "power": 0.6,  
+                "gravity": 0.04,  
+                "inertia": 0.99,  
+                "angle_offset": -5,  
+                "anchor": 1,
+                "offset": [0, -0.1, 0],
+                "on_hit": {
+                    "stick_in_ground": {
+                        "shake_time": 0
+                    },
+                    "impact_damage": {
+                        "damage": 0,
+                        "knockback": false,
+                        "destroy_on_hit": false
+                    },
+                    "definition_event": {
+                        "affect_projectile": true,
+                        "event_trigger": {
+                            "event": "douarmc_more_tnt:start_explosion"
+                        }
+                    }
+                }
+            },
+            "minecraft:damage_sensor": {
+                "triggers": {
+                    "cause": "all",
+                    "deals_damage": "no"
+                }
+            },
+            "minecraft:body_rotation_blocked": {},
+            "minecraft:cannot_be_attacked": {}
+        },
+        "events": {
+            "douarmc_more_tnt:start_explosion": {
+                "filters": {
+                    "test": "has_component", "value": "minecraft:explode", "subject": "self", "operator": "!="
+                },
+                "add": {
+                    "component_groups": ["douarmc_more_tnt:start_explosion"]
+                }
+            }
+        }
+    }
+}
