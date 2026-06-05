@@ -1,0 +1,32 @@
+{
+	"format_version": "1.21.60",
+	"animations": {
+		"animation.douarmc_more_tnt.dynamite.hold_third_person": {
+			"loop": true,
+			"bones": {
+				"dynamite": {
+					"rotation": [87.5, 0, 5],
+					"position": [0, 20.4375, 3]
+				}
+			}
+		},
+		"animation.douarmc_more_tnt.dynamite.hold_first_person": {
+			"loop": true,
+			"bones": {
+				"dynamite": {
+					"rotation": [35.1027, 4.09405, 250.37277],
+					"position": [0, 24, 2.125]
+				}
+			}
+		},
+		"animation.douarmc_more_tnt.dynamite.thrown": {
+			"loop": true,
+			"animation_length": 2.0,
+			"bones": {
+				"dynamite": {
+					"rotation": [0, 0, 90]
+				}
+			}
+		}
+	}
+}

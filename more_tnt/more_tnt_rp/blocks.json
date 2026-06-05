@@ -1,0 +1,16 @@
+{
+    "format_version": "1.21.40",
+
+    "douarmc_more_tnt:x10_tnt": {
+        "sound": "grass"
+    },
+    "douarmc_more_tnt:diamond_tnt": {
+        "sound": "grass"
+    },
+    "douarmc_more_tnt:instant_tnt": {
+        "sound": "grass"
+    },
+    "douarmc_more_tnt:ice_tnt": {
+        "sound": "grass"
+    }
+}

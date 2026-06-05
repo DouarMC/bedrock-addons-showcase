@@ -1,0 +1,27 @@
+pack.name=More TNT RP [v1.1.2] - By DouarMC
+pack.description=An add-on that adds up more TNT! - Created by DouarMC
+
+## Blocks
+tile.douarmc_more_tnt:x10_tnt.name=x10 TNT
+tile.douarmc_more_tnt:diamond_tnt.name=Diamond TNT
+tile.douarmc_more_tnt:instant_tnt.name=Instant TNT
+tile.douarmc_more_tnt:ice_tnt.name=Ice TNT
+tile.douarmc_more_tnt:lightning_tnt.name=Lightning TNT
+
+## Entities
+entity.douarmc_more_tnt:x10_tnt.name=x10 TNT
+entity.douarmc_more_tnt:diamond_tnt.name=Diamond TNT
+entity.douarmc_more_tnt:instant_tnt.name=Instant TNT
+entity.douarmc_more_tnt:ice_tnt.name=Ice TNT
+
+## Items
+item.douarmc_more_tnt:dynamite=Dynamite
+item.douarmc_more_tnt:x10_dynamite=x10 Dynamite
+item.douarmc_more_tnt:diamond_dynamite=Diamond Dynamite
+item.douarmc_more_tnt:instant_dynamite=Instant Dynamite
+item.douarmc_more_tnt:ice_dynamite=Ice Dynamite
+item.douarmc_more_tnt:lightning_dynamite=Lightning Dynamite
+
+## Item Groups
+douarmc_more_tnt:more_tnt=More TNTs
+douarmc_more_tnt:dynamite=Dynamites

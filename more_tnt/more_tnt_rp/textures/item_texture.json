@@ -1,0 +1,24 @@
+{
+    "resource_pack_name": "more_tnt",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "douarmc_more_tnt:dynamite": {
+            "textures": "textures/douarmc/more_tnt/items/dynamite.png"
+        },
+        "douarmc_more_tnt:x10_dynamite": {
+            "textures": "textures/douarmc/more_tnt/items/x10_dynamite.png"
+        },
+        "douarmc_more_tnt:diamond_dynamite": {
+            "textures": "textures/douarmc/more_tnt/items/diamond_dynamite.png"
+        },
+        "douarmc_more_tnt:instant_dynamite": {
+            "textures": "textures/douarmc/more_tnt/items/instant_dynamite.png"
+        },
+        "douarmc_more_tnt:ice_dynamite": {
+            "textures": "textures/douarmc/more_tnt/items/ice_dynamite.png"
+        },
+        "douarmc_more_tnt:lightning_dynamite": {
+            "textures": "textures/douarmc/more_tnt/items/lightning_dynamite.png"
+        }
+    }
+}

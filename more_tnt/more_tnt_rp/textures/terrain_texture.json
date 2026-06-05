@@ -1,0 +1,53 @@
+{
+    "resource_pack_name": "more_tnt",
+    "num_mip_levels": 4,
+    "padding": 8,
+    "texture_name": "atlas.terrain",
+    "texture_data": {
+        "douarmc_more_tnt:x10_tnt_bottom": {
+            "textures": "textures/douarmc/more_tnt/blocks/x10_tnt/x10_tnt_bottom.png"
+        },
+        "douarmc_more_tnt:x10_tnt_side": {
+            "textures": "textures/douarmc/more_tnt/blocks/x10_tnt/x10_tnt_side.png"
+        },
+        "douarmc_more_tnt:x10_tnt_top": {
+            "textures": "textures/douarmc/more_tnt/blocks/x10_tnt/x10_tnt_top.png"
+        },
+        "douarmc_more_tnt:diamond_tnt_bottom": {
+            "textures": "textures/douarmc/more_tnt/blocks/diamond_tnt/diamond_tnt_bottom.png"
+        },
+        "douarmc_more_tnt:diamond_tnt_side": {
+            "textures": "textures/douarmc/more_tnt/blocks/diamond_tnt/diamond_tnt_side.png"
+        },
+        "douarmc_more_tnt:diamond_tnt_top": {
+            "textures": "textures/douarmc/more_tnt/blocks/diamond_tnt/diamond_tnt_top.png"
+        },
+        "douarmc_more_tnt:instant_tnt_bottom": {
+            "textures": "textures/douarmc/more_tnt/blocks/instant_tnt/instant_tnt_bottom.png"
+        },
+        "douarmc_more_tnt:instant_tnt_side": {
+            "textures": "textures/douarmc/more_tnt/blocks/instant_tnt/instant_tnt_side.png"
+        },
+        "douarmc_more_tnt:instant_tnt_top": {
+            "textures": "textures/douarmc/more_tnt/blocks/instant_tnt/instant_tnt_top.png"
+        },
+        "douarmc_more_tnt:ice_tnt_bottom": {
+            "textures": "textures/douarmc/more_tnt/blocks/ice_tnt/ice_tnt_bottom.png"
+        },
+        "douarmc_more_tnt:ice_tnt_side": {
+            "textures": "textures/douarmc/more_tnt/blocks/ice_tnt/ice_tnt_side.png"
+        },
+        "douarmc_more_tnt:ice_tnt_top": {
+            "textures": "textures/douarmc/more_tnt/blocks/ice_tnt/ice_tnt_top.png"
+        },
+        "douarmc_more_tnt:lightning_tnt_bottom": {
+            "textures": "textures/douarmc/more_tnt/blocks/lightning_tnt/lightning_tnt_bottom.png"
+        },
+        "douarmc_more_tnt:lightning_tnt_side": {
+            "textures": "textures/douarmc/more_tnt/blocks/lightning_tnt/lightning_tnt_side.png"
+        },
+        "douarmc_more_tnt:lightning_tnt_top": {
+            "textures": "textures/douarmc/more_tnt/blocks/lightning_tnt/lightning_tnt_top.png"
+        }
+    }
+}
